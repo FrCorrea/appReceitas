@@ -121,7 +121,7 @@ class _LoginPageState extends State<LoginPage> {
             SendButton(
               text: "Fazer login",
               onPressed: () {
-                (email == "igorpfcastro@gmail.com" && senha == "123456")
+                (email == "" && senha == "")
                     ? Navigator.of(context).pushReplacement(MaterialPageRoute(
                         builder: ((context) => const HomePage()),
                       ))
